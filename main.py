@@ -1,4 +1,11 @@
 #!/usr/bin/env -S python3 -OO
+"""
+TODO:
+- ensure password integrity (at least one lower, one upper, one number, one symbol)
+- feature: don't use the same character more than once
+- feature: don't use sequential characters (e.g. abc, 789)
+"""
+
 import argparse, secrets, string
 from pyperclip import copy
 
